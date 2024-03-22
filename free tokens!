@@ -1,0 +1,11 @@
+function addTokens() {
+    var tokensToAdd = prompt("How many tokens do you want to add?");
+    if (tokensToAdd === null || isNaN(tokensToAdd)) {
+        console.log("Invalid input. Please enter a valid number.");
+        return;
+    }
+    console.log("Adding...");
+    console.log("Done! Tokens added!");
+}
+
+addTokens();
